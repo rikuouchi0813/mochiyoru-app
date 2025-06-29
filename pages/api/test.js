@@ -3,5 +3,6 @@ export default function handler(req, res) {
     message: "Next.js API is working!",
     method: req.method,
     timestamp: new Date().toISOString(),
+    environment: "production",
   });
 }
