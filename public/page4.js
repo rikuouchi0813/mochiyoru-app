@@ -103,8 +103,8 @@ class ItemAssignmentManager {
 
   /* ---------- API ベース URL ---------- */
   baseUrl(path = "") {
-    return `https://mochiyoru.vercel.app/api/groups/${this.groupData.groupId}${path}`;
-    //return `/api/groups/${this.groupData.groupId}${path}`;
+    //return `https://mochiyoru.vercel.app/api/groups/${this.groupData.groupId}${path}`;
+    return `/api/groups/${this.groupData.groupId}${path}`;
   }
 
   /* ---------- 既存アイテム取得 ---------- */
