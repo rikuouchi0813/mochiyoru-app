@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>持ち物の追加 - 旅行</title>
+    <link rel="stylesheet" href="page5_travel.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=M+PLUS+1p:wght@500&family=Mochiy+Pop+P+One&family=Zen+Kaku+Gothic+New:wght@500;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="img/title.svg" alt="モチヨル" class="h1-image">
+    </header>
+
+    <div class="container">
+        <h2>持ち物を追加しよう</h2>
+
+        <div class="input-section">
+            <input type="text" id="itemInput" placeholder="持ち物を入力してください">
+            <button id="addButton">追加</button>
+        </div>
+
+        <div class="items-container" id="itemsContainer">
+            <!-- デフォルトアイテム -->
+            <div class="item-tag">
+                <span>パスポート</span>
+                <button class="remove-btn" type="button">×</button>
+            </div>
+            <div class="item-tag">
+                <span>カメラ</span>
+                <button class="remove-btn" type="button">×</button>
+            </div>
+            <div class="item-tag">
+                <span>財布</span>
+                <button class="remove-btn" type="button">×</button>
+            </div>
+            <div class="item-tag">
+                <span>パスポートのコピー</span>
+                <button class="remove-btn" type="button">×</button>
+            </div>
+            <div class="item-tag">
+                <span>変圧器</span>
+                <button class="remove-btn" type="button">×</button>
+            </div>
+            <div class="item-tag">
+                <span>航空券</span>
+                <button class="remove-btn" type="button">×</button>
+            </div>
+        </div>
+
+        <button class="next-button" id="nextButton">
+            次に進む
+            <span class="arrow"></span>
+        </button>
+    </div>
+
+    <footer>
+        <div class="footer-lists">
+            <ul class="left-list">
+                <li>よくある質問</li>
+                <li>お問い合わせ</li>
+                <li>広告掲載について</li>
+                <li>アンケート</li>
+            </ul>
+            <ul class="right-list">
+                <li>プライバシーポリシー</li>
+                <li>利用規約</li>
+                <li>運営元情報</li>
+            </ul>
+        </div>
+        <hr>
+        <p>&copy; 2025 モチヨル</p>
+    </footer>
+
+    <script src="page5_travel.js"></script>
+</body>
+
+</html>

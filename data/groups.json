@@ -1,0 +1,192 @@
+{
+  "159a0f13-da63-482e-8685-acafedb0ad65": {
+    "groupId": "159a0f13-da63-482e-8685-acafedb0ad65",
+    "groupName": "テストグループ",
+    "members": [
+      "太郎",
+      "花子"
+    ],
+    "items": []
+  },
+  "75bc2a51-e9ac-4706-a0d8-48f591a6e065": {
+    "groupId": "75bc2a51-e9ac-4706-a0d8-48f591a6e065",
+    "groupName": "おはなグループ",
+    "members": [
+      "まりん",
+      "りく"
+    ],
+    "items": [
+      {
+        "name": "おはな",
+        "quantity": "",
+        "assignee": ""
+      },
+      {
+        "name": "ｓｓ",
+        "quantity": "",
+        "assignee": ""
+      }
+    ]
+  },
+  "ff5b4303-d0de-485f-aeac-12d186e9b557": {
+    "groupId": "ff5b4303-d0de-485f-aeac-12d186e9b557",
+    "groupName": "おはなグループ",
+    "members": [
+      "まりん",
+      "りく",
+      "ｓ"
+    ],
+    "items": []
+  },
+  "59308d92-a0a3-447a-916c-646b2e6982de": {
+    "groupId": "59308d92-a0a3-447a-916c-646b2e6982de",
+    "groupName": "おはなグループ",
+    "members": [
+      "まりん",
+      "りく",
+      "ｓ"
+    ],
+    "items": []
+  },
+  "2b0c78a5-e5de-4bfe-b5e2-fadf782e4f32": {
+    "groupId": "2b0c78a5-e5de-4bfe-b5e2-fadf782e4f32",
+    "groupName": "おはなグループ",
+    "members": [
+      "まりん",
+      "りく",
+      "ｓ"
+    ],
+    "items": []
+  },
+  "3a0457c6-7936-45ad-9d3c-861c2428e964": {
+    "groupId": "3a0457c6-7936-45ad-9d3c-861c2428e964",
+    "groupName": "おはなグループ",
+    "members": [
+      "まりん",
+      "りく",
+      "ｓ"
+    ],
+    "items": []
+  },
+  "f96a6e54-36e5-405b-bc29-d58793a38c93": {
+    "groupId": "f96a6e54-36e5-405b-bc29-d58793a38c93",
+    "groupName": "おはなグループ",
+    "members": [
+      "まりん",
+      "りく",
+      "ｓ"
+    ],
+    "items": []
+  },
+  "d7fd7b22-995b-4652-915a-f261d759fe79": {
+    "groupId": "d7fd7b22-995b-4652-915a-f261d759fe79",
+    "groupName": "おはなグループ",
+    "members": [
+      "まりん",
+      "りく"
+    ]
+  },
+  "d8e2e78f-6eae-4c17-a09d-efc1b23228ed": {
+    "groupId": "d8e2e78f-6eae-4c17-a09d-efc1b23228ed",
+    "groupName": "おはなグループ",
+    "members": [
+      "まりん",
+      "りく"
+    ]
+  },
+  "ba1361b9-636b-418c-a0d9-36dc993a9991": {
+    "groupId": "ba1361b9-636b-418c-a0d9-36dc993a9991",
+    "groupName": "おはなグループ",
+    "members": [
+      "まりん"
+    ]
+  },
+  "7a72e781-8b20-4e9c-b877-2e979fb3e1b7": {
+    "groupId": "7a72e781-8b20-4e9c-b877-2e979fb3e1b7",
+    "groupName": "おはなグループ",
+    "members": [
+      "まりん"
+    ]
+  },
+  "2a289a53-dbab-4ae4-aeba-248ffd4fcd20": {
+    "groupId": "2a289a53-dbab-4ae4-aeba-248ffd4fcd20",
+    "groupName": "おはなグループ",
+    "members": [
+      "まりん"
+    ]
+  },
+  "06a575d5-cee4-4d57-8b8a-c5170933f372": {
+    "groupId": "06a575d5-cee4-4d57-8b8a-c5170933f372",
+    "groupName": "さかなグループ",
+    "members": [
+      "まりん",
+      "りく"
+    ]
+  },
+  "c74affd6-b89b-46c6-bdff-2eb3811b3cc6": {
+    "groupId": "c74affd6-b89b-46c6-bdff-2eb3811b3cc6",
+    "groupName": "おはなグループ",
+    "members": [
+      "まりん"
+    ]
+  },
+  "d9be200d-bf69-4fbe-b35a-b4c7f3e5787c": {
+    "groupId": "d9be200d-bf69-4fbe-b35a-b4c7f3e5787c",
+    "groupName": "おはなグループ",
+    "members": [
+      "まりん"
+    ]
+  },
+  "02ca473d-08c1-4875-9cde-bec6fc3689b3": {
+    "groupId": "02ca473d-08c1-4875-9cde-bec6fc3689b3",
+    "groupName": "さかなグループ",
+    "members": [
+      "まりん"
+    ]
+  },
+  "bf4bacd4-8a4a-4a37-be32-a7506ebcf860": {
+    "groupId": "bf4bacd4-8a4a-4a37-be32-a7506ebcf860",
+    "groupName": "おはなグループ",
+    "members": [
+      "まりん"
+    ]
+  },
+  "68e0bf1d-64e6-48b1-8f4e-8350d9ea951b": {
+    "groupId": "68e0bf1d-64e6-48b1-8f4e-8350d9ea951b",
+    "groupName": "おはなグループ",
+    "members": [
+      "まりん",
+      "りく"
+    ]
+  },
+  "9f0718dc-e4c1-4cd6-864a-9751b3b6d0a0": {
+    "groupId": "9f0718dc-e4c1-4cd6-864a-9751b3b6d0a0",
+    "groupName": "おはなグループ",
+    "members": [
+      "まりん",
+      "りく"
+    ]
+  },
+  "08b2a4fc-0062-44e9-8a9e-6d4d0948d164": {
+    "groupId": "08b2a4fc-0062-44e9-8a9e-6d4d0948d164",
+    "groupName": "おはなグループ",
+    "members": [
+      "まりん",
+      "りく"
+    ]
+  },
+  "79f6ab02-863b-485d-a146-5356b454c320": {
+    "groupId": "79f6ab02-863b-485d-a146-5356b454c320",
+    "groupName": "おはなグループ",
+    "members": [
+      "ｓｓ"
+    ]
+  },
+  "0859b864-1a6f-436d-9808-0baf1bcfce70": {
+    "groupId": "0859b864-1a6f-436d-9808-0baf1bcfce70",
+    "groupName": "おはなグループ",
+    "members": [
+      "まりん"
+    ]
+  }
+}

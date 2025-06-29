@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>持ち物リストの完成</title>
+    <link rel="stylesheet" href="page5.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=M+PLUS+1p:wght@500&family=Mochiy+Pop+P+One&family=Zen+Kaku+Gothic+New:wght@500;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="img/title.svg" alt="モチヨル" class="h1-image">
+    </header>
+
+    <main>
+        <div class="success-container">
+            <!-- 成功アイコン -->
+            <div class="success-icon">
+                <div class="checkmark-circle">
+                    <div class="checkmark"></div>
+                </div>
+            </div>
+
+            <!-- 完成メッセージ -->
+            <h2>完成!</h2>
+
+            <!-- グループの持ち物リストタイトル（動的に更新される） -->
+            <h3 id="groupTitle">グループの持ち物リスト</h3>
+
+            <!-- 持ち物リストテーブル -->
+            <div class="items-table">
+                <div class="table-header">
+                    <div class="col-person">担当者</div>
+                    <div class="col-item">持ち物</div>
+                    <div class="col-count">個数</div>
+                </div>
+                <div class="table-body" id="listDisplay">
+                    <!-- JavaScriptで動的に生成 -->
+                </div>
+            </div>
+
+            <!-- アクションボタン -->
+            <div class="action-buttons">
+                <div class="edit-button-wrapper">
+                    <button class="edit-btn" data-type="group-name">
+                        <span class="icon">✏️</span>
+                    </button>
+                    <span class="edit-label">グループ名を変更する</span>
+                </div>
+                <div class="edit-button-wrapper">
+                    <button class="edit-btn" data-type="list-edit">
+                        <span class="icon">✏️</span>
+                    </button>
+                    <span class="edit-label">リストを編集する</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-lists">
+            <ul class="left-list">
+                <li>よくある質問</li>
+                <li>お問い合わせ</li>
+                <li>広告掲載について</li>
+                <li>アンケート</li>
+            </ul>
+            <ul class="right-list">
+                <li>プライバシーポリシー</li>
+                <li>利用規約</li>
+                <li>運営元情報</li>
+            </ul>
+        </div>
+        <hr>
+        <p>&copy; 2025 モチヨル</p>
+    </footer>
+
+    <script src="page5.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,404 @@
+/* ===== ベーススタイル ===== */
+html {
+    box-sizing: border-box;
+    font-family: 'M PLUS 1p', sans-serif;
+    max-width: 375px;
+    width: 100vw;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #f2fff1;
+    min-height: 100vh;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== ヘッダー ===== */
+header {
+    text-align: center;
+    padding: 12px 0;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 375px;
+    margin: 0 auto 30px auto;
+}
+
+/* ===== ロゴ ===== */
+.h1-image {
+    width: 90px;
+    height: auto;
+}
+
+/* ===== メイン ===== */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 20px;
+}
+
+/* ===== 成功コンテナ ===== */
+.success-container {
+    text-align: center;
+    max-width: 335px;
+    width: 100%;
+}
+
+/* ===== 成功アイコン ===== */
+.success-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.checkmark-circle {
+    width: 30px;
+    height: 30px;
+    background-color: #00E1A9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    animation: bounceIn 0.6s ease-out;
+}
+
+.checkmark {
+    width: 10px;
+    height: 6px;
+    border-left: 4px solid white;
+    border-bottom: 4px solid white;
+    transform: rotate(-45deg);
+    position: relative;
+    top: -2px;
+    animation: checkmarkDraw 0.4s ease-out 0.3s both;
+}
+
+/* チェックマークアニメーション */
+@keyframes bounceIn {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes checkmarkDraw {
+    0% {
+        width: 0;
+        height: 0;
+    }
+    50% {
+        width: 13px;
+        height: 0;
+    }
+    100% {
+        width: 10px;
+        height: 6px;
+    }
+}
+
+/* ===== 完成見出し ===== */
+h2 {
+    font-family: "Mochiy Pop P One", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #242424;
+    margin-bottom: 40px;
+    line-height: 1.4;
+    animation: fadeInUp 0.6s ease-out 0.4s both;
+}
+
+/* ===== グループ名見出し ===== */
+h3 {
+    font-family: "Mochiy Pop P One", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #242424;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    animation: fadeInUp 0.6s ease-out 0.5s both;
+    transition: color 0.3s ease;
+}
+
+/* グループ名更新時のアニメーション */
+h3.updating {
+    color: #00E1A9;
+    transform: scale(1.05);
+}
+
+/* ===== 持ち物リストテーブル ===== */
+.items-table {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    overflow: hidden;
+    animation: fadeInUp 0.6s ease-out 0.6s both;
+}
+
+.table-header {
+    display: flex;
+    background-color: #f8f9fa;
+    font-weight: 700;
+    font-size: 12px;
+    color: #666;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.table-header > div,
+.table-row > div {
+    padding: 12px 8px;
+    text-align: center;
+    border-right: 1px solid #e9ecef;
+}
+
+.table-header > div:last-child,
+.table-row > div:last-child {
+    border-right: none;
+}
+
+.col-person {
+    flex: 1;
+    min-width: 60px;
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 700;
+    color: #404040;
+}
+
+.col-item {
+    flex: 2;
+    min-width: 120px;
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 700;
+    color: #404040;
+}
+
+.col-count {
+    flex: 0.8;
+    min-width: 40px;
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 700;
+    color: #404040;
+}
+
+/* ヘッダー行のフォントサイズを12pxに設定 */
+.table-header .col-person,
+.table-header .col-item,
+.table-header .col-count {
+    font-size: 12px;
+}
+
+.table-row {
+    display: flex;
+    color: #242424;
+    border-bottom: 1px solid #f1f3f4;
+    transition: background-color 0.2s ease;
+}
+
+.table-row:last-child {
+    border-bottom: none;
+}
+
+.table-row:nth-child(even) {
+    background-color: #fafbfc;
+}
+
+.table-row:hover {
+    background-color: #f0f8ff;
+}
+
+/* データ行のフォントサイズを13pxに設定 */
+.table-row .col-person,
+.table-row .col-item,
+.table-row .col-count {
+    font-size: 13px;
+}
+
+/* 担当者が「全員」の場合のスタイル */
+.table-row .col-person.all-members {
+    color: #00E1A9;
+    font-weight: 700;
+}
+
+/* ===== アクションボタン ===== */
+.action-buttons {
+    margin-bottom: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: flex-start;
+    animation: fadeInUp 0.6s ease-out 0.7s both;
+}
+
+.edit-button-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.edit-btn {
+    width: 30px;
+    height: 30px;
+    background: #242424;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    flex-shrink: 0;
+}
+
+.edit-btn:hover {
+    background: #333;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(36, 36, 36, 0.3);
+}
+
+.edit-btn:active {
+    transform: translateY(0) scale(0.95);
+}
+
+.edit-btn .icon {
+    font-size: 14px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-label {
+    font-size: 12px;
+    font-family: "M PLUS 1p", sans-serif;
+    color: #404040;
+    font-weight: 700;
+}
+
+/* ===== フッター ===== */
+footer {
+    background-color: #404040;
+    color: #fff;
+    padding: 36px 24px 18px 24px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+footer hr {
+    border: none;
+    border-top: 1px solid #888;
+    margin: 18px 0 10px 0;
+    width: 100%;
+    max-width: 600px;
+    opacity: 0.4;
+}
+
+footer p {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    margin: 0;
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+}
+
+.footer-lists {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 12px;
+}
+
+.footer-lists ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+}
+
+.footer-lists li {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 12px;
+    opacity: 0.95;
+}
+
+/* ===== アニメーション ===== */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* テーブル行のフェードイン */
+.table-row {
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeInUp 0.4s ease-out forwards;
+}
+
+/* ===== レスポンシブ対応 ===== */
+@media (max-width: 320px) {
+    .col-person {
+        min-width: 50px;
+    }
+    
+    .col-item {
+        min-width: 100px;
+    }
+    
+    .col-count {
+        min-width: 35px;
+    }
+    
+    .table-header > div,
+    .table-row > div {
+        padding: 10px 6px;
+    }
+    
+    .table-header .col-person,
+    .table-header .col-item,
+    .table-header .col-count {
+        font-size: 12px;
+    }
+    
+    .table-row .col-person,
+    .table-row .col-item,
+    .table-row .col-count {
+        font-size: 12px;
+    }
+}
